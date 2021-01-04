@@ -1,0 +1,17 @@
+package in.co.sunrays.bean;
+
+public class CourseBean1 extends BaseBean {
+
+private String Name;
+
+
+private String Description;
+
+private String Duration;
+
+
+	
+	
+	
+	
+}

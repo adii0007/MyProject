@@ -1,0 +1,43 @@
+package in.co.sunrays.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.omg.CORBA.portable.ApplicationException;
+
+import in.co.sunrays.bean.BaseBean1;
+import in.co.sunrays.bean.SubjectBean1;
+import in.co.sunrays.proj4.util.DataUtility1;
+
+public class SubjectListCtl1 extends BaseCtl1 {
+	
+	protected void preload(HttpServletRequest request) {
+		
+		SubjectModel1 model = new SubjectModel1();
+		CourseModel1 Cmodel = new CourseModel1();
+		List subjectList = model.list(); 
+		List courseList = model.list();
+		
+		request.setAttribute("subjectList",subjectList);
+		request.setAttribute("courseList",courseList);
+		}
+        
+	
+			
+		@Override
+		protected BaseBean1 populateBean(HttpServletRequest request) {
+			SubjectBean1 bean = new SubjectBean1();
+			
+			bean.setId(DataUtility1.getLong(request.getParameter("subjectId")));
+			bean.setName(DataUtility1.getString(request.getParameter("name")));
+			bean.setDescription(DataUtility1.getString(request.getParameter("description")));
+			bean.setCourseid(DataUtility1.getLong(request.getParameter("courseId")));
+
+			return null;
+
+		}
+		
+	}
+
+

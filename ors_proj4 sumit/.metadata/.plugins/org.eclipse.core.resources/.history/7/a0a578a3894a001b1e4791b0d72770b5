@@ -1,0 +1,92 @@
+package in.co.sunrays.bean;
+
+import java.util.Date;
+
+public class StudentBean1 extends BaseBean1 {
+
+	private String firstName;
+	
+	private String lastName;
+	
+	private Date dob;
+	
+	private String MobileNo ;
+
+	private String Email ;
+	
+	private long collegeId;
+	
+	private String collegName;
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public String getMobileNo() {
+		return MobileNo;
+	}
+
+	public void setMobileNo(String mobileNo) {
+		MobileNo = mobileNo;
+	}
+
+	public String getEmail() {
+		return Email;
+	}
+
+	public void setEmail(String email) {
+		Email = email;
+	}
+
+	public long getCollegeId() {
+		return collegeId;
+	}
+
+	public void setCollegeId(long collegeId) {
+		this.collegeId = collegeId;
+	}
+
+	public String getCollegName() {
+		return collegName;
+	}
+
+	public void setCollegName(String collegName) {
+		this.collegName = collegName;
+	}
+
+	public int compareTo(BaseBean1 o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public String getKey() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getvalue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

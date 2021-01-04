@@ -1,0 +1,52 @@
+package in.co.sunrays.model;
+
+public class SubjectModel1 {
+
+	public Integer nextPK() {
+	
+	Connection conn = null;
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return null;
+	 {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+package in.co.sunrays.exception;
+
+public class Snippet {
+	public static void main(String[] args) {
+		DatabaseException
+	}
+}
+

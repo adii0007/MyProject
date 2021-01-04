@@ -1,0 +1,21 @@
+package in.co.sunrays.bean;
+
+import java.util.Date;
+
+public class StudentBean1 extends BaseBean {
+
+	private String firstName;
+	
+	private String lastName;
+	
+	private Date dob;
+	
+	private String MobileNo ;
+
+	private String Email ;
+	
+	private long collegeId;
+	
+	private String collegName;
+
+}

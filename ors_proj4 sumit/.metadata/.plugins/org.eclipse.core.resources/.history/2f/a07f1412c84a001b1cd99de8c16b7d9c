@@ -1,0 +1,20 @@
+package in.co.sunrays.controller;
+
+public class DataValidator1 {
+
+	public static boolean isNotNull(String val) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean isInteger(String val) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean isLong(String val) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

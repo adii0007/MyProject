@@ -1,0 +1,5 @@
+package in.co.sunrays.exception;
+
+public class ApplicationException {
+
+}

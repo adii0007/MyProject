@@ -1,0 +1,6 @@
+package in.co.sunrays.exception;
+
+public class DuplicateRecordException extends Exception {
+
+	public DuplicateRecordException(super msg);
+}

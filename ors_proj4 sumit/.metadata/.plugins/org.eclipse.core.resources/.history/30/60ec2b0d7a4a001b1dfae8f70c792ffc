@@ -1,0 +1,22 @@
+package in.co.sunrays.bean;
+
+public class StudentBean extends BaseBean {
+
+	private String firstName;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

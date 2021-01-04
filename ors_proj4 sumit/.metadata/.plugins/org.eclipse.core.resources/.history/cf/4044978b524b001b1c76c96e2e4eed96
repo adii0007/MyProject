@@ -1,0 +1,18 @@
+package in.co.sunrays.proj4.util;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+import jdk.internal.dynalink.beans.StaticClass;
+
+public class JDBCDataSource {
+
+	
+	
+	private static JDBCDataSource Datasource;
+	
+	private JDBCDatasource() {
+	}
+	
+	private ComboPooledDataSource cpds = null;
+	
+}

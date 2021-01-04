@@ -1,0 +1,41 @@
+package in.co.sunrays.bean;
+import java.io.Serializable;
+
+public class BaseBean {
+
+	public abstract class BaseBean implements serialization, DropdownlistBean, camparable<BaseBean> {
+	
+	
+	protected long id;
+	
+	protected String createdby;
+	
+	protected String modifiedby;
+	
+	protected Timestamp createdDatetime;
+	
+	protected Timestamp modifiedDatetime;
+	
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

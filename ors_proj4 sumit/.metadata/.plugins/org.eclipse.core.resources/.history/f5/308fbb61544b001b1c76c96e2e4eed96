@@ -1,0 +1,49 @@
+package in.co.sunrays.proj4.util;
+
+import java.util.ResourceBundle;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+import jdk.internal.dynalink.beans.StaticClass;
+
+public class JDBCDataSource {
+
+	
+	
+	private static JDBCDataSource Datasource;
+	
+	private JDBCDataSource() {
+	}
+	
+	private ComboPooledDataSource cpds = null;
+	
+	
+	public static JDBCDataSource getInstance(){
+		if(Datasource == null){
+			
+			
+			ResourceBundle rb = ResourceBundle
+                    .getBundle("in.co.sunrays.proj4.bundle.system");
+
+			Datasource = new JDBCDataSource();
+			Datasource.cpds= new ComboPooledDataSource();
+			try{
+				Datasource.cpds.setDriverClass(rb.getString("driver"));
+			}
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

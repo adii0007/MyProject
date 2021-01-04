@@ -1,0 +1,5 @@
+package in.co.sunrays.controller;
+
+public class BaseCtl {
+
+}

@@ -1,0 +1,18 @@
+package in.co.sunrays.controller;
+
+public class PropertyReader {
+
+
+
+	
+	
+	
+	
+	
+	
+	static Object getValue(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

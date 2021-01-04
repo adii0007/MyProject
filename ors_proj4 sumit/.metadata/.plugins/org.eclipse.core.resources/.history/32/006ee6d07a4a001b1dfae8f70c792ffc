@@ -1,0 +1,33 @@
+package in.co.sunrays.bean;
+
+public class StudentBean extends BaseBean {
+
+	private String firstName;
+	
+	private String lastName;
+	
+	private Date dob;
+	
+	private String  login ;
+
+	private String password ;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

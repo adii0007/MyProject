@@ -1,0 +1,15 @@
+package in.co.sunrays.bean;
+
+public class SubjectBean1 {
+
+	private String name;
+	
+	private String description;
+	
+	private long courseid;
+	
+	private String courseName;
+	
+	
+	
+}

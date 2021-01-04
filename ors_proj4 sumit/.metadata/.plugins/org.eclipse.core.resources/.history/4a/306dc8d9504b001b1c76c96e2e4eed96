@@ -1,0 +1,49 @@
+package in.co.sunrays.model;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.mysql.jdbc.Connection;
+
+import in.co.sunrays.exception.DatabaseException;
+
+public class SubjectModel1 {
+	 private static Logger log = Logger.getLogger(SubjectModel1.class);
+	public Integer nextPK() throws DatabaseException { 
+		
+		
+	}
+	
+	
+	Connection conn = null;
+	int pk=0;
+	try{
+		conn = JDBCDataSource.getConnection();
+	    PreparedStatement pstmt = conn.prepareStatement("select MAX(ID) FROM ST_SUBJECT"); 
+		ResultSet rs = pstmt.executeQuery();
+		while(rs.next());
+		 pk = rs.getInt(1);
+		rs.close();
+	}
+	
+	catch(Exception e){
+		log.error("DatabaseException..")
+	}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	 

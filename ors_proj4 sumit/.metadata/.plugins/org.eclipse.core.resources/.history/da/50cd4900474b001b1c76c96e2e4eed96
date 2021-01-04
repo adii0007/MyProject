@@ -1,0 +1,57 @@
+package in.co.sunrays.model;
+
+import com.mysql.jdbc.Connection;
+
+public class SubjectModel1 {
+
+	public Integer nextPK() throws DatabaseException 
+	
+	Connection conn = null;
+	int pk=0;
+	try{
+		conn = JDBCDataconnection.getconnection();
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return null;
+	 {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
